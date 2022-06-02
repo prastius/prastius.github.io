@@ -24,55 +24,6 @@
     <title>Eko Prastius - Portfolio</title>
 </head>
 
-<style>
-    span.cursor {
-        display: inline-block;
-        background-color: #ccc;
-        margin-left: 0.1rem;
-        width: 3px;
-        animation: blink 1s infinite;
-    }
-
-    span.cursor.typing {
-        animation: none;
-    }
-
-    span.typed-text.dark-theme {
-        color: #f1c40f;
-    }
-
-    span.typed-text {
-        font-weight: bold;
-        color: #f39c12;
-    }
-
-    p#typed {
-        display: none;
-    }
-
-    @keyframes blink {
-        0% {
-            background-color: #ccc;
-        }
-
-        49% {
-            background-color: #ccc;
-        }
-
-        50% {
-            background-color: transparent;
-        }
-
-        99% {
-            background-color: transparent;
-        }
-
-        100% {
-            background-color: #ccc;
-        }
-    }
-</style>
-
 <body>
     <div class="container">
         <div class="row">
@@ -101,7 +52,14 @@
                             <div class="col-md-8">
                                 <h4>Hi, My name is Eko Prastius, I am <span class="typed-text"></span><span
                                         class="cursor">&nbsp;</span></h4>
-                                <p id="typed">undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined undefined.</p>
+                                <p id="typed">undefined undefined undefined undefined undefined undefined undefined
+                                    undefined undefined undefined undefined undefined undefined undefined undefined
+                                    undefined undefined undefined undefined undefined undefined undefined undefined
+                                    undefined undefined undefined undefined undefined undefined undefined undefined
+                                    undefined undefined undefined undefined undefined undefined undefined undefined
+                                    undefined undefined undefined undefined undefined undefined undefined undefined
+                                    undefined undefined undefined undefined undefined undefined undefined undefined
+                                    undefined undefined undefined undefined.</p>
                             </div>
                         </div>
 
@@ -133,173 +91,44 @@
                         </ul>
                         <div class="tab-content main-tab" id="mainTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel">
-                                <table class="table table-responsive-sm table-striped table-borderless">
-                                    <tbody>
-                                        <tr>
-                                            <td class="col-md-1">
-                                                <img src="https://www.uib.ac.id/wp-content/uploads/2019/12/UIB-logo-biru.png"
-                                                    alt="" width="100%">
-                                            </td>
-                                            <td>
-                                                Universitas Internasional Batam
-                                            </td>
-                                            <td>
-                                                Information System
-                                                <br>
-                                                <span style="font-size:10px">IPK: 3.92 / 4.00</span>
-                                            </td>
-                                            <td>2018-2022</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="col-md-1">
-                                                <img src="http://photos.wikimapia.org/p/00/03/28/06/44_big.jpg" alt=""
-                                                    width="100%">
-                                            </td>
-                                            <td>SMAK Yos Sudarso Batam</td>
-                                            <td>
-                                                Natural Science
-                                                <br>
-                                                <span style="font-size:10px">Score: 70 / 100</span>
-                                            </td>
-                                            <td>2015-2018</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-
+                                <div id="education"></div>
                             </div>
                             <div class="tab-pane fade profile-tab" id="profile" role="tabpanel">
-                                <table class="table table-responsive-xl table-striped table-borderless">
-                                    <tbody>
-                                        <tr>
-                                            <td class="col-md-1">
-                                                <img src="https://media-exp1.licdn.com/dms/image/C560BAQG4H3fcSkNOsg/company-logo_200_200/0/1623722942957?e=2147483647&v=beta&t=pftuh3UYwtMtOm56IDZIAQN8WNQU7W6ugRZW2fbPdE0"
-                                                    width="100%" alt="">
-                                            </td>
-                                            <td>
-                                                PT. Agung Trisula Mandiri
-                                                <br>
-                                                <span style="font-size:12px; font-weight:bold">Laravel
-                                                    Developer</span>
-                                            </td>
-                                            <td style="font-size:12px">
-                                                <li>Write clean code to develop web application using Laravel
-                                                    Framework</li>
-                                                <li>Build Desktop App with C# programming language</li>
-                                                <li>Integration Website with Desktop Application using REST API</li>
-                                                <li>Work with Scrum Project Management</li>
-                                                <li>Work on bug fixing and improve application performance</li>
-                                            </td>
-                                            <td style="font-size:12px; text-align: center;">Feb 2022 - Present</td>
-                                            <td style="font-size:12px; text-align: center;" id="trisula"></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="col-md-1">
-                                                <img src="https://www.uib.ac.id/wp-content/uploads/2019/12/UIB-logo-biru.png"
-                                                    alt="" width="100%">
-                                            </td>
-                                            <td>
-                                                Universitas Internasional Batam
-                                                <br>
-                                                <span style="font-size:12px; font-weight:bold">Head of Multimedia
-                                                    (Student Association)</span>
-                                            </td>
-                                            <td style="font-size:12px">
-                                                <li>Lead the organization in the multimedia division</li>
-                                                <li>Coordinate tasks & management meetings</li>
-                                                <li>Provide mentoring program for junior</li>
-                                                <li>Designing content for Instagram</li>
-                                                <li>Summarize all association activities using videography</li>
-                                            </td>
-                                            <td style="font-size:12px; text-align: center;">2019 - 2020</td>
-                                            <td style="font-size:12px; text-align: center;">1 years</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="col-md-1">
-                                                <img src="https://www.awardo.co/wp-content/uploads/2021/12/tigernix_logo.png"
-                                                    width="100%" alt="">
-                                            </td>
-                                            <td>
-                                                Tigernix Pte Ltd
-                                                <br>
-                                                <span style="font-size:12px; font-weight:bold">ERP Consultant</span>
-                                            </td>
-                                            <td style="font-size:12px">
-                                                <li>Developing and configuring customized ERP solutions</li>
-                                                <li>Writing scripts to design user-friendly interfaces and optimized
-                                                    functionalities</li>
-                                                <li>Deploying ERP solutions and ensuring seamless system integration
-                                                </li>
-                                                <li>Running diagnostic tests and resolving issues to enhance
-                                                    performance</li>
-                                                <li>Complying with industry regulations</li>
-                                            </td>
-                                            <td style="font-size:12px; text-align: center;">Mar 2019 - Jun 2019</td>
-                                            <td style="font-size:12px; text-align: center;">3 months</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="col-md-1">
-                                                <img src="https://cdn.dribbble.com/users/2059160/screenshots/4413086/day20-freelance.jpg"
-                                                    width="100%" alt="">
-                                            </td>
-                                            <td>
-                                                Freelance
-                                                <br>
-                                                <span style="font-size:12px; font-weight:bold">Web Designer</span>
-                                            </td>
-                                            <td style="font-size:12px">
-                                                <li>Build Web Application using pure PHP, HTML & CSS</li>
-                                                <li>Specialize on Website Front-end Development</li>
-                                                <li>Bug fixing on content & layout of the website</li>
-                                            </td>
-                                            <td style="font-size:12px; text-align: center;">2018</td>
-                                            <td style="font-size:12px; text-align: center;">-</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="col-md-1">
-                                                <img src="https://cdn.dribbble.com/users/2059160/screenshots/4413086/day20-freelance.jpg"
-                                                    width="100%" alt="">
-                                            </td>
-                                            <td>
-                                                Freelance
-                                                <br>
-                                                <span style="font-size:12px; font-weight:bold">Graphic
-                                                    Designer</span>
-                                            </td>
-                                            <td style="font-size:12px">
-                                                <li>Using Adobe Photoshop to design poster, banner, etc</li>
-                                                <li>Using Sony Vegas to create visualize videography</li>
-                                                <li>Using Corel Draw to design branding logo</li>
-                                            </td>
-                                            <td style="font-size:12px; text-align: center;">2017</td>
-                                            <td style="font-size:12px; text-align: center;">-</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                <div id="experience"></div>
                             </div>
                             <div class="tab-pane education-detail fade" id="resume" role="tabpanel">
                                 <div class="row">
-                                    <a href="asset/img/certificate/smmak.jpg" style="margin-bottom: 10px;" data-toggle="lightbox" data-gallery="certificate" class="col-sm-3">
+                                    <a href="asset/img/certificate/smmak.jpg" style="margin-bottom: 10px;"
+                                        data-toggle="lightbox" data-gallery="certificate" class="col-sm-3">
                                         <img src="asset/img/certificate/smmak.jpg" width="100%" class="img-fluid">
                                     </a>
-                                    <a href="asset/img/certificate/pma.jpg" style="margin-bottom: 10px;" data-toggle="lightbox" data-gallery="certificate" class="col-sm-3">
+                                    <a href="asset/img/certificate/pma.jpg" style="margin-bottom: 10px;"
+                                        data-toggle="lightbox" data-gallery="certificate" class="col-sm-3">
                                         <img src="asset/img/certificate/pma.jpg" width="100%" class="img-fluid">
                                     </a>
-                                    <a href="asset/img/certificate/kemsar.jpg" style="margin-bottom: 10px;" data-toggle="lightbox" data-gallery="certificate" class="col-sm-3">
+                                    <a href="asset/img/certificate/kemsar.jpg" style="margin-bottom: 10px;"
+                                        data-toggle="lightbox" data-gallery="certificate" class="col-sm-3">
                                         <img src="asset/img/certificate/kemsar.jpg" width="100%" class="img-fluid">
                                     </a>
-                                    <a href="asset/img/certificate/conescintech.png" style="margin-bottom: 10px;" data-toggle="lightbox" data-gallery="certificate" class="col-sm-3">
-                                        <img src="asset/img/certificate/conescintech.png" width="100%" class="img-fluid">
+                                    <a href="asset/img/certificate/conescintech.png" style="margin-bottom: 10px;"
+                                        data-toggle="lightbox" data-gallery="certificate" class="col-sm-3">
+                                        <img src="asset/img/certificate/conescintech.png" width="100%"
+                                            class="img-fluid">
                                     </a>
-                                    <a href="asset/img/certificate/quintscore.png" style="margin-bottom: 10px;" data-toggle="lightbox" data-gallery="certificate" class="col-sm-3">
+                                    <a href="asset/img/certificate/quintscore.png" style="margin-bottom: 10px;"
+                                        data-toggle="lightbox" data-gallery="certificate" class="col-sm-3">
                                         <img src="asset/img/certificate/quintscore.png" width="100%" class="img-fluid">
                                     </a>
-                                    <a href="asset/img/certificate/quintscrum.png" style="margin-bottom: 10px;" data-toggle="lightbox" data-gallery="certificate" class="col-sm-3">
+                                    <a href="asset/img/certificate/quintscrum.png" style="margin-bottom: 10px;"
+                                        data-toggle="lightbox" data-gallery="certificate" class="col-sm-3">
                                         <img src="asset/img/certificate/quintscrum.png" width="100%" class="img-fluid">
                                     </a>
-                                    <a href="asset/img/certificate/sdf.png" style="margin-bottom: 10px;" data-toggle="lightbox" data-gallery="certificate" class="col-sm-3">
+                                    <a href="asset/img/certificate/sdf.png" style="margin-bottom: 10px;"
+                                        data-toggle="lightbox" data-gallery="certificate" class="col-sm-3">
                                         <img src="asset/img/certificate/sdf.png" width="100%" class="img-fluid">
                                     </a>
-                                    <a href="asset/img/certificate/toeic.jpg" style="margin-bottom: 10px;" data-toggle="lightbox" data-gallery="certificate" class="col-sm-3">
+                                    <a href="asset/img/certificate/toeic.jpg" style="margin-bottom: 10px;"
+                                        data-toggle="lightbox" data-gallery="certificate" class="col-sm-3">
                                         <img src="asset/img/certificate/toeic.jpg" width="100%" class="img-fluid">
                                     </a>
                                     <div style="margin-bottom: 10px;" class="col-md-3">
@@ -311,57 +140,73 @@
                                 </div>
                             </div>
                             <div class="tab-pane portfolio-detail fade" id="portfolio" role="tabpanel">
-                                <div class="text-center d-flex align-items-start">
-                                    <!-- <div class="nav-details"> -->
-                                    <!-- <ul class="nav nav-pills" id="testTab" role="tablist"> -->
-                                    <ul class="nav nav-pills flex-column" id="portTab" role="tablist"
+                                <div class="d-flex align-items-start">
+                                    <ul class="nav nav-pills nav-fill flex-column" id="portTab" role="tablist"
                                         aria-orientation="vertical">
                                         <li class="nav-item">
-                                            <a class="nav-link active" id="home-tab" data-toggle="pill"
-                                                href="#poster">Poster</a>
+                                            <button class="nav-link active" id="poster-tab" data-bs-toggle="pill"
+                                                data-bs-target="#poster" type="button" role="tab">Poster</button>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" id="profile-tab" data-toggle="pill" href="#matte">Matte
-                                                Painting</a>
+                                            <button class="nav-link" id="matte-tab" data-bs-toggle="pill"
+                                                data-bs-target="#matte" type="button" role="tab">Matte Painting</button>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" id="home-tab" data-toggle="pill" href="#video">Video</a>
+                                            <button class="nav-link" id="video-tab" data-bs-toggle="pill"
+                                                data-bs-target="#video" type="button" role="tab">Video</button>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" id="profile-tab" data-toggle="pill"
-                                                href="#game">Game</a>
+                                            <button class="nav-link" id="game-tab" data-bs-toggle="pill"
+                                                data-bs-target="#game" type="button" role="tab">Game</button>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" id="profile-tab" data-toggle="pill" href="#etc">Etc</a>
+                                            <button class="nav-link" id="program-tab" data-bs-toggle="pill"
+                                                data-bs-target="#program" type="button" role="tab">Program</button>
+                                        </li>
+                                        <li class="nav-item">
+                                            <button class="nav-link" id="etc-tab" data-bs-toggle="pill"
+                                                data-bs-target="#etc" type="button" role="tab">Etc</button>
                                         </li>
                                     </ul>
                                     <div class="tab-content side-tab" id="portTabContent">
                                         <div class="tab-pane fade show active" id="poster" role="tabpanel">
                                             <div class="row">
-                                                <div style="margin-bottom: 10px;" class="col-md-4">
-                                                    <img src="asset/img/portfolio/poster/poster01.jpg" alt=""
-                                                        width="100%">
-                                                </div>
-                                                <div style="margin-bottom: 10px;" class="col-md-4">
-                                                    <img src="asset/img/portfolio/poster/poster02.jpg" alt=""
-                                                        width="100%">
-                                                </div>
-                                                <div style="margin-bottom: 10px;" class="col-md-4">
-                                                    <img src="asset/img/portfolio/poster/poster03.jpg" alt=""
-                                                        width="100%">
-                                                </div>
-                                                <div style="margin-bottom: 10px;" class="col-md-4">
-                                                    <img src="asset/img/portfolio/poster/poster04.jpg" alt=""
-                                                        width="100%">
-                                                </div>
-                                                <div style="margin-bottom: 10px;" class="col-md-4">
-                                                    <img src="asset/img/portfolio/poster/poster05.jpg" alt=""
-                                                        width="100%">
-                                                </div>
-                                                <div style="margin-bottom: 10px;" class="col-md-4">
-                                                    <img src="asset/img/portfolio/poster/poster06.jpg" alt=""
-                                                        width="100%">
-                                                </div>
+                                                <a href="asset/img/portfolio/poster/poster01.jpg"
+                                                    style="margin-bottom: 10px;" data-toggle="lightbox"
+                                                    data-gallery="poster" class="col-sm-4">
+                                                    <img src="asset/img/portfolio/poster/poster01.jpg" width="100%"
+                                                        class="img-fluid">
+                                                </a>
+                                                <a href="asset/img/portfolio/poster/poster02.jpg"
+                                                    style="margin-bottom: 10px;" data-toggle="lightbox"
+                                                    data-gallery="poster" class="col-sm-4">
+                                                    <img src="asset/img/portfolio/poster/poster02.jpg" width="100%"
+                                                        class="img-fluid">
+                                                </a>
+                                                <a href="asset/img/portfolio/poster/poster03.jpg"
+                                                    style="margin-bottom: 10px;" data-toggle="lightbox"
+                                                    data-gallery="poster" class="col-sm-4">
+                                                    <img src="asset/img/portfolio/poster/poster03.jpg" width="100%"
+                                                        class="img-fluid">
+                                                </a>
+                                                <a href="asset/img/portfolio/poster/poster04.jpg"
+                                                    style="margin-bottom: 10px;" data-toggle="lightbox"
+                                                    data-gallery="poster" class="col-sm-4">
+                                                    <img src="asset/img/portfolio/poster/poster04.jpg" width="100%"
+                                                        class="img-fluid">
+                                                </a>
+                                                <a href="asset/img/portfolio/poster/poster05.jpg"
+                                                    style="margin-bottom: 10px;" data-toggle="lightbox"
+                                                    data-gallery="poster" class="col-sm-4">
+                                                    <img src="asset/img/portfolio/poster/poster05.jpg" width="100%"
+                                                        class="img-fluid">
+                                                </a>
+                                                <a href="asset/img/portfolio/poster/poster06.jpg"
+                                                    style="margin-bottom: 10px;" data-toggle="lightbox"
+                                                    data-gallery="poster" class="col-sm-4">
+                                                    <img src="asset/img/portfolio/poster/poster06.jpg" width="100%"
+                                                        class="img-fluid">
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="tab-pane fade profile-tab" id="matte" role="tabpanel">
@@ -376,26 +221,32 @@
                                         </div>
                                         <div class="tab-pane fade profile-tab" id="video" role="tabpanel">
                                             <div class="row">
-                                                <div style="margin-bottom: 10px;" class="col-md-6">
-                                                    <iframe width="100%" height="100%"
-                                                        src="https://www.youtube.com/embed/cxZKPsk3T04">
-                                                    </iframe>
-                                                </div>
-                                                <div style="margin-bottom: 10px;" class="col-md-6">
-                                                    <iframe width="100%" height="100%"
-                                                        src="https://www.youtube.com/embed/1cRtvyQyQI4">
-                                                    </iframe>
-                                                </div>
-                                                <div style="margin-bottom: 10px;" class="col-md-6">
-                                                    <iframe width="100%" height="100%"
-                                                        src="https://www.youtube.com/embed/m3M8rHy0fag">
-                                                    </iframe>
-                                                </div>
+                                                <a href="https://www.youtube.com/embed/cxZKPsk3T04"
+                                                    style="margin-bottom: 10px;" data-toggle="lightbox"
+                                                    data-gallery="poster" class="col-sm-6">
+                                                    <img src="https://www.youtube.com/embed/cxZKPsk3T04" width="100%"
+                                                        class="img-fluid">
+                                                </a>
+                                                <a href="https://www.youtube.com/embed/1cRtvyQyQI4"
+                                                    style="margin-bottom: 10px;" data-toggle="lightbox"
+                                                    data-gallery="poster" class="col-sm-6">
+                                                    <img src="https://www.youtube.com/embed/cxZKPsk3T04" width="100%"
+                                                        class="img-fluid">
+                                                </a>
+                                                <a href="https://www.youtube.com/embed/m3M8rHy0fag"
+                                                    style="margin-bottom: 10px;" data-toggle="lightbox"
+                                                    data-gallery="poster" class="col-sm-6">
+                                                    <img src="https://www.youtube.com/embed/cxZKPsk3T04" width="100%"
+                                                        class="img-fluid">
+                                                </a>
                                             </div>
                                             VIDEO
                                         </div>
                                         <div class="tab-pane fade profile-tab" id="game" role="tabpanel">
                                             GAME
+                                        </div>
+                                        <div class="tab-pane fade profile-tab" id="program" role="tabpanel">
+                                            Coding
                                         </div>
                                         <div class="tab-pane fade profile-tab" id="etc" role="tabpanel">
                                             ETC
@@ -406,24 +257,46 @@
                                 Graphic Design | Game | Website | Program
                             </div>
                             <div class="tab-pane portfolio-detail contact-tab fade" id="contact" role="tabpanel">
-                                <table class="table table-responsive-xl table-striped table-borderless">
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                Judul Publikasi
-                                                Jurnal Mana
-                                                Eonjae
-                                            </td>
-                                            <td>
-                                                Keterangan
-                                            </td>
-                                            <td style="font-size:12px">
-                                                Contributor
-                                            </td>
-                                            <td style="font-size:12px; text-align: center;">Show Publication</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                <div class="d-flex align-items-start">
+                                    <ul class="nav nav-pills nav-fill flex-column" id="WhoAmITab" role="tablist"
+                                        aria-orientation="vertical">
+                                        <li class="nav-item">
+                                            <button class="nav-link active" id="publication-tab" data-bs-toggle="pill"
+                                                data-bs-target="#publication" type="button"
+                                                role="tab">Publication</button>
+                                        </li>
+                                        <li class="nav-item">
+                                            <button class="nav-link" id="youtube-tab" data-bs-toggle="pill"
+                                                data-bs-target="#youtube" type="button" role="tab">Youtube</button>
+                                        </li>
+                                        <li class="nav-item">
+                                            <button class="nav-link" id="blogspot-tab" data-bs-toggle="pill"
+                                                data-bs-target="#blogspot" type="button" role="tab">Blogspot</button>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content side-tab" id="WhoAmITabContent">
+                                        <div class="tab-pane fade show active" id="publication" role="tabpanel">
+                                            <div id="publication"></div>
+                                        </div>
+                                        <div class="tab-pane fade" id="youtube" role="tabpanel">
+                                            Youtube
+                                        </div>
+                                        <div class="tab-pane fade" id="blogspot" role="tabpanel">
+                                            <div class="table-responsive">
+                                                <table class="table table-striped table-borderless">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <iframe width="100%" src="http://guideclosers.blogspot.com/"></iframe>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
                                 Publication, Youtube, Blogspot, Playing Games, Reviewing
                             </div>
                         </div>
@@ -438,7 +311,7 @@
     </div>
 
     <!-- JQuery-->
-    <script src="asset/js/jquery-3.6.0.slim.min.js"></script>
+    <script src="asset/js/jquery.min.js"></script>
 
     <!-- Bootstrap 5 JS -->
     <script src="asset/js/bootstrap.bundle.min.js"></script>
@@ -447,6 +320,12 @@
 
     <!-- Moment Js -->
     <script src="asset/js/moment.min.js"></script>
+
+    <script>
+        $("#publication").load("asset/html/publication.html");
+        $("#education").load("asset/html/education.html");
+        $("#experience").load("asset/html/experience.html");
+    </script>
 
     <script>
         var start = moment([2022, 2, 2]);
