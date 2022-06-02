@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+
+    <!-- Font Awesome 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+    <!-- Personal CSS -->
+    <link rel="stylesheet" href="asset/css/style.css">
+
+    <title>Eko Prastius - Portfolio</title>
+</head>
+
+<style>
+    span.cursor {
+        display: inline-block;
+        background-color: #ccc;
+        margin-left: 0.1rem;
+        width: 3px;
+        animation: blink 1s infinite;
+    }
+
+    span.cursor.typing {
+        animation: none;
+    }
+
+    span.typed-text.dark-theme {
+        color: #f1c40f;
+    }
+
+    span.typed-text {
+        font-weight: bold;
+        color: #f39c12;
+    }
+
+    p#typed {
+        display: none;
+    }
+
+    @keyframes blink {
+        0% {
+            background-color: #ccc;
+        }
+
+        49% {
+            background-color: #ccc;
+        }
+
+        50% {
+            background-color: transparent;
+        }
+
+        99% {
+            background-color: transparent;
+        }
+
+        100% {
+            background-color: #ccc;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <div class="chkbox">
+                            <input type="checkbox" class="checkbox" id="checkbox">
+                            <label for="checkbox" class="checkbox-label">
+                                <i class="fas fa-moon"></i>
+                                <i class="fas fa-sun"></i>
+                                <span class="ball"></span>
+                            </label>
+                        </div>
+                        <h5 class="fw-bold mt-2 text-center">
+                            Eko Prastius
+                        </h5>
+                        <p style="font-size:12px" class="p-job text-center">Full-Stack Web Developer | Graphic Designer
+                        </p>
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <!-- <img id="my-photo" src="" alt="" width="100%"> -->
+                            </div>
+                            <div class="col-md-8">
+                                <h4>Hi, My name is Eko Prastius, I am <span class="typed-text"></span><span
+                                        class="cursor">&nbsp;</span></h4>
+                                <p id="typed">undefined undefined undefined undefined undefined undefined undefined
+                                    undefined undefined undefined undefined undefined undefined undefined undefined
+                                    undefined undefined undefined undefined undefined undefined undefined undefined
+                                    undefined undefined undefined undefined undefined undefined undefined undefined
+                                    undefined undefined undefined undefined undefined undefined undefined undefined
+                                    undefined undefined undefined undefined undefined undefined undefined undefined
+                                    undefined undefined undefined undefined undefined undefined undefined undefined
+                                    undefined undefined undefined undefined.</p>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <!-- Tabs -->
+
+                        <ul class="nav nav-tabs nav-fill" id="mainTab" role="tablist">
+                            <li class="nav-item">
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                    data-bs-target="#home" type="button" role="tab">Education</button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                                    type="button" role="tab">Experience</button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" id="resume-tab" data-bs-toggle="tab" data-bs-target="#resume"
+                                    type="button" role="tab">Awards & Achievement</button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" id="portfolio-tab" data-bs-toggle="tab"
+                                    data-bs-target="#portfolio" type="button" role="tab">Portfolio</button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact"
+                                    type="button" role="tab">What I'm Doing?</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content main-tab" id="mainTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel">
+                                <table class="table table-responsive-sm table-striped table-borderless">
+                                    <tbody>
+                                        <tr>
+                                            <td class="col-md-1">
+                                                <img src="https://www.uib.ac.id/wp-content/uploads/2019/12/UIB-logo-biru.png"
+                                                    alt="" width="100%">
+                                            </td>
+                                            <td>
+                                                Universitas Internasional Batam
+                                            </td>
+                                            <td>
+                                                Information System
+                                                <br>
+                                                <span style="font-size:10px">IPK: 3.92 / 4.00</span>
+                                            </td>
+                                            <td>2018-2022</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-1">
+                                                <img src="http://photos.wikimapia.org/p/00/03/28/06/44_big.jpg" alt=""
+                                                    width="100%">
+                                            </td>
+                                            <td>SMAK Yos Sudarso Batam</td>
+                                            <td>
+                                                Natural Science
+                                                <br>
+                                                <span style="font-size:10px">Score: 70 / 100</span>
+                                            </td>
+                                            <td>2015-2018</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+                            <div class="tab-pane fade profile-tab" id="profile" role="tabpanel">
+                                <table class="table table-responsive-xl table-striped table-borderless">
+                                    <tbody>
+                                        <tr>
+                                            <td class="col-md-1">
+                                                <img src="https://media-exp1.licdn.com/dms/image/C560BAQG4H3fcSkNOsg/company-logo_200_200/0/1623722942957?e=2147483647&v=beta&t=pftuh3UYwtMtOm56IDZIAQN8WNQU7W6ugRZW2fbPdE0"
+                                                    width="100%" alt="">
+                                            </td>
+                                            <td>
+                                                PT. Agung Trisula Mandiri
+                                                <br>
+                                                <span style="font-size:12px; font-weight:bold">Laravel
+                                                    Developer</span>
+                                            </td>
+                                            <td style="font-size:12px">
+                                                <li>Write clean code to develop web application using Laravel
+                                                    Framework</li>
+                                                <li>Build Desktop App with C# programming language</li>
+                                                <li>Integration Website with Desktop Application using REST API</li>
+                                                <li>Work with Scrum Project Management</li>
+                                                <li>Work on bug fixing and improve application performance</li>
+                                            </td>
+                                            <td style="font-size:12px; text-align: center;">Feb 2022 - Present</td>
+                                            <td style="font-size:12px; text-align: center;" id="trisula"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-1">
+                                                <img src="https://www.uib.ac.id/wp-content/uploads/2019/12/UIB-logo-biru.png"
+                                                    alt="" width="100%">
+                                            </td>
+                                            <td>
+                                                Universitas Internasional Batam
+                                                <br>
+                                                <span style="font-size:12px; font-weight:bold">Head of Multimedia
+                                                    (Student Association)</span>
+                                            </td>
+                                            <td style="font-size:12px">
+                                                <li>Lead the organization in the multimedia division</li>
+                                                <li>Coordinate tasks & management meetings</li>
+                                                <li>Provide mentoring program for junior</li>
+                                                <li>Designing content for Instagram</li>
+                                                <li>Summarize all association activities using videography</li>
+                                            </td>
+                                            <td style="font-size:12px; text-align: center;">2019 - 2020</td>
+                                            <td style="font-size:12px; text-align: center;">1 years</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-1">
+                                                <img src="https://www.awardo.co/wp-content/uploads/2021/12/tigernix_logo.png"
+                                                    width="100%" alt="">
+                                            </td>
+                                            <td>
+                                                Tigernix Pte Ltd
+                                                <br>
+                                                <span style="font-size:12px; font-weight:bold">ERP Consultant</span>
+                                            </td>
+                                            <td style="font-size:12px">
+                                                <li>Developing and configuring customized ERP solutions</li>
+                                                <li>Writing scripts to design user-friendly interfaces and optimized
+                                                    functionalities</li>
+                                                <li>Deploying ERP solutions and ensuring seamless system integration
+                                                </li>
+                                                <li>Running diagnostic tests and resolving issues to enhance
+                                                    performance</li>
+                                                <li>Complying with industry regulations</li>
+                                            </td>
+                                            <td style="font-size:12px; text-align: center;">Mar 2019 - Jun 2019</td>
+                                            <td style="font-size:12px; text-align: center;">3 months</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-1">
+                                                <img src="https://cdn.dribbble.com/users/2059160/screenshots/4413086/day20-freelance.jpg"
+                                                    width="100%" alt="">
+                                            </td>
+                                            <td>
+                                                Freelance
+                                                <br>
+                                                <span style="font-size:12px; font-weight:bold">Web Designer</span>
+                                            </td>
+                                            <td style="font-size:12px">
+                                                <li>Build Web Application using pure PHP, HTML & CSS</li>
+                                                <li>Specialize on Website Front-end Development</li>
+                                                <li>Bug fixing on content & layout of the website</li>
+                                            </td>
+                                            <td style="font-size:12px; text-align: center;">2018</td>
+                                            <td style="font-size:12px; text-align: center;">-</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-1">
+                                                <img src="https://cdn.dribbble.com/users/2059160/screenshots/4413086/day20-freelance.jpg"
+                                                    width="100%" alt="">
+                                            </td>
+                                            <td>
+                                                Freelance
+                                                <br>
+                                                <span style="font-size:12px; font-weight:bold">Graphic
+                                                    Designer</span>
+                                            </td>
+                                            <td style="font-size:12px">
+                                                <li>Using Adobe Photoshop to design poster, banner, etc</li>
+                                                <li>Using Sony Vegas to create visualize videography</li>
+                                                <li>Using Corel Draw to design branding logo</li>
+                                            </td>
+                                            <td style="font-size:12px; text-align: center;">2017</td>
+                                            <td style="font-size:12px; text-align: center;">-</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="tab-pane education-detail fade" id="resume" role="tabpanel">
+                                <div class="row">
+                                    <a href="asset/img/certificate/smmak.jpg" style="margin-bottom: 10px;" data-toggle="lightbox" data-gallery="certificate" class="col-sm-3">
+                                        <img src="asset/img/certificate/smmak.jpg" width="100%" class="img-fluid">
+                                    </a>
+                                    <a href="asset/img/certificate/pma.jpg" style="margin-bottom: 10px;" data-toggle="lightbox" data-gallery="certificate" class="col-sm-3">
+                                        <img src="asset/img/certificate/pma.jpg" width="100%" class="img-fluid">
+                                    </a>
+                                    <a href="asset/img/certificate/kemsar.jpg" style="margin-bottom: 10px;" data-toggle="lightbox" data-gallery="certificate" class="col-sm-3">
+                                        <img src="asset/img/certificate/kemsar.jpg" width="100%" class="img-fluid">
+                                    </a>
+                                    <a href="asset/img/certificate/conescintech.png" style="margin-bottom: 10px;" data-toggle="lightbox" data-gallery="certificate" class="col-sm-3">
+                                        <img src="asset/img/certificate/conescintech.png" width="100%" class="img-fluid">
+                                    </a>
+                                    <a href="asset/img/certificate/quintscore.png" style="margin-bottom: 10px;" data-toggle="lightbox" data-gallery="certificate" class="col-sm-3">
+                                        <img src="asset/img/certificate/quintscore.png" width="100%" class="img-fluid">
+                                    </a>
+                                    <a href="asset/img/certificate/quintscrum.png" style="margin-bottom: 10px;" data-toggle="lightbox" data-gallery="certificate" class="col-sm-3">
+                                        <img src="asset/img/certificate/quintscrum.png" width="100%" class="img-fluid">
+                                    </a>
+                                    <a href="asset/img/certificate/sdf.png" style="margin-bottom: 10px;" data-toggle="lightbox" data-gallery="certificate" class="col-sm-3">
+                                        <img src="asset/img/certificate/sdf.png" width="100%" class="img-fluid">
+                                    </a>
+                                    <a href="asset/img/certificate/toeic.jpg" style="margin-bottom: 10px;" data-toggle="lightbox" data-gallery="certificate" class="col-sm-3">
+                                        <img src="asset/img/certificate/toeic.jpg" width="100%" class="img-fluid">
+                                    </a>
+                                    <div style="margin-bottom: 10px;" class="col-md-3">
+                                        <img src="" alt="BEST PAPER" width="100%">
+                                    </div>
+                                    <div style="margin-bottom: 10px;" class="col-md-3">
+                                        <img src="" alt="Kehormatan Tertinggi" width="100%">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane portfolio-detail fade" id="portfolio" role="tabpanel">
+                                <div class="text-center d-flex align-items-start">
+                                    <!-- <div class="nav-details"> -->
+                                    <!-- <ul class="nav nav-pills" id="testTab" role="tablist"> -->
+                                    <ul class="nav nav-pills flex-column" id="portTab" role="tablist"
+                                        aria-orientation="vertical">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" id="home-tab" data-toggle="pill"
+                                                href="#poster">Poster</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="profile-tab" data-toggle="pill" href="#matte">Matte
+                                                Painting</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="home-tab" data-toggle="pill" href="#video">Video</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="profile-tab" data-toggle="pill"
+                                                href="#game">Game</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="profile-tab" data-toggle="pill" href="#etc">Etc</a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content side-tab" id="portTabContent">
+                                        <div class="tab-pane fade show active" id="poster" role="tabpanel">
+                                            <div class="row">
+                                                <div style="margin-bottom: 10px;" class="col-md-4">
+                                                    <img src="asset/img/portfolio/poster/poster01.jpg" alt=""
+                                                        width="100%">
+                                                </div>
+                                                <div style="margin-bottom: 10px;" class="col-md-4">
+                                                    <img src="asset/img/portfolio/poster/poster02.jpg" alt=""
+                                                        width="100%">
+                                                </div>
+                                                <div style="margin-bottom: 10px;" class="col-md-4">
+                                                    <img src="asset/img/portfolio/poster/poster03.jpg" alt=""
+                                                        width="100%">
+                                                </div>
+                                                <div style="margin-bottom: 10px;" class="col-md-4">
+                                                    <img src="asset/img/portfolio/poster/poster04.jpg" alt=""
+                                                        width="100%">
+                                                </div>
+                                                <div style="margin-bottom: 10px;" class="col-md-4">
+                                                    <img src="asset/img/portfolio/poster/poster05.jpg" alt=""
+                                                        width="100%">
+                                                </div>
+                                                <div style="margin-bottom: 10px;" class="col-md-4">
+                                                    <img src="asset/img/portfolio/poster/poster06.jpg" alt=""
+                                                        width="100%">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade profile-tab" id="matte" role="tabpanel">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <img src="asset/img/portfolio/matte/sea.jpg" alt="" width="100%">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <img src="asset/img/portfolio/matte/sky.png" alt="" width="100%">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade profile-tab" id="video" role="tabpanel">
+                                            <div class="row">
+                                                <div style="margin-bottom: 10px;" class="col-md-6">
+                                                    <iframe width="100%" height="100%"
+                                                        src="https://www.youtube.com/embed/cxZKPsk3T04">
+                                                    </iframe>
+                                                </div>
+                                                <div style="margin-bottom: 10px;" class="col-md-6">
+                                                    <iframe width="100%" height="100%"
+                                                        src="https://www.youtube.com/embed/1cRtvyQyQI4">
+                                                    </iframe>
+                                                </div>
+                                                <div style="margin-bottom: 10px;" class="col-md-6">
+                                                    <iframe width="100%" height="100%"
+                                                        src="https://www.youtube.com/embed/m3M8rHy0fag">
+                                                    </iframe>
+                                                </div>
+                                            </div>
+                                            VIDEO
+                                        </div>
+                                        <div class="tab-pane fade profile-tab" id="game" role="tabpanel">
+                                            GAME
+                                        </div>
+                                        <div class="tab-pane fade profile-tab" id="etc" role="tabpanel">
+                                            ETC
+                                        </div>
+
+                                    </div>
+                                </div>
+                                Graphic Design | Game | Website | Program
+                            </div>
+                            <div class="tab-pane portfolio-detail contact-tab fade" id="contact" role="tabpanel">
+                                <table class="table table-responsive-xl table-striped table-borderless">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                Judul Publikasi
+                                                Jurnal Mana
+                                                Eonjae
+                                            </td>
+                                            <td>
+                                                Keterangan
+                                            </td>
+                                            <td style="font-size:12px">
+                                                Contributor
+                                            </td>
+                                            <td style="font-size:12px; text-align: center;">Show Publication</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                Publication, Youtube, Blogspot, Playing Games, Reviewing
+                            </div>
+                        </div>
+                        <!-- End of Tabs -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p class="copyright">Copyright © 2022 <strong>Eko Prastius</strong> | All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <!-- JQuery-->
+    <script src="asset/js/jquery-3.6.0.slim.min.js"></script>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="asset/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap 5 Lightbox -->
+    <script src="asset/js/lightbox.bundle.min.js"></script>
+
+    <!-- Moment Js -->
+    <script src="asset/js/moment.min.js"></script>
+
+    <script>
+        var start = moment([2022, 2, 2]);
+        var end = moment();
+        var trisula = end.from(start, true);
+        document.getElementById("trisula").innerHTML = trisula;
+    </script>
+
+    <script>
+        function typeEffect(element, speed) {
+            var text = element.innerHTML;
+            element.innerHTML = "";
+
+            var i = 0;
+            var timer = setInterval(function () {
+                if (i < text.length) {
+                    element.append(text.charAt(i));
+                    i++;
+                } else {
+                    clearInterval(timer);
+                }
+            }, speed);
+        }
+
+
+        // application
+        var speed = 15;
+        var p = document.querySelector('#typed');
+        var delay = 50 * speed + speed;
+
+        // type affect to body
+        setTimeout(function () {
+            p.style.display = "inline-block";
+            typeEffect(p, speed);
+        }, delay);
+
+    </script>
+
+    <script>
+        const typedTextSpan = document.querySelector(".typed-text");
+        const cursorSpan = document.querySelector(".cursor");
+
+        const textArray = ["Web Developer.", "Photographer.", "Videographer.", "Reviewer."];
+        const typingDelay = 100;
+        const erasingDelay = 50;
+        const newTextDelay = 1000; // Delay between current and next text
+        let textArrayIndex = 0;
+        let charIndex = 0;
+
+        function type() {
+            if (charIndex < textArray[textArrayIndex].length) {
+                if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+                typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+                charIndex++;
+                setTimeout(type, typingDelay);
+            }
+            else {
+                cursorSpan.classList.remove("typing");
+                setTimeout(erase, newTextDelay);
+            }
+        }
+
+        function erase() {
+            if (charIndex > 0) {
+                if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+                typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex - 1);
+                charIndex--;
+                setTimeout(erase, erasingDelay);
+            }
+            else {
+                cursorSpan.classList.remove("typing");
+                textArrayIndex++;
+                if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+                setTimeout(type, typingDelay + 1100);
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function () { // On DOM Load initiate the effect
+            if (textArray.length) setTimeout(type, newTextDelay + 250);
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#checkbox').on('click', function () {
+                if ($('body').hasClass('dark-theme')) {
+                    $('h5').html("Eko Prastius");
+                    $('p.p-job').html("Full-Stack Web Developer | Graphic Designer");
+                    $('body, .card, hr, .nav-link, footer, span.typed-text').toggleClass('dark-theme');
+                    $('.ball').toggleClass('checked');
+                    $('table').toggleClass('table-dark');
+                    $("#my-photo").attr("src", "https://pbs.twimg.com/profile_images/1276027829520482306/yCmmOrER_400x400.jpg");
+                    localStorage.setItem("mode", "light-theme");
+                } else {
+                    $('h5').html("Echo");
+                    $('p.p-job').html("Content Creator | Photographer & Videographer");
+                    $('body, .card, hr, .nav-link, footer, span.typed-text').toggleClass('dark-theme');
+                    $('.ball').toggleClass('checked');
+                    $('table').toggleClass('table-dark');
+                    $("#my-photo").attr("src", "asset/img/mainmain.jpg");
+                    localStorage.setItem("mode", "dark-theme");
+                }
+            })
+            //check for localStorage, add as browser preference if missing
+            if (!localStorage.getItem("mode")) {
+                if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                    localStorage.setItem("mode", "dark-theme");
+                } else {
+                    localStorage.setItem("mode", "light-theme");
+                }
+            }
+            //set interface to match localStorage
+            if (localStorage.getItem("mode") == "dark-theme") {
+                $('body, .card, hr, .nav-link, footer, span.typed-text').addClass('dark-theme');
+                $('h5').html("Echo");
+                $('p.p-job').html("Content Creator | Photographer & Videographer");
+                $('.ball').toggleClass('checked');
+                $('table').toggleClass('table-dark');
+                $("#my-photo").attr("src", "asset/img/mainmain.jpg");
+                document.getElementById("theme_toggle").checked = true;
+            } else {
+                $('body, .card, hr, .nav-link, footer, span.typed-text').removeClass('dark-theme');
+                $('h5').html("Eko Prastius");
+                $('p.p-job').html("Full-Stack Web Developer | Graphic Designer");
+                $('table').removeClass('table-dark');
+                $("#my-photo").attr("src", "https://pbs.twimg.com/profile_images/1276027829520482306/yCmmOrER_400x400.jpg");
+                document.getElementById("theme_toggle").checked = false;
+            };
+        });
+    </script>
+</body>
+
+</html>
